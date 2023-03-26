@@ -16,7 +16,7 @@ Feature: Signup Feature
     Then user should be able to get their studentId
 
 
-  @regression @smoke @sanity
+  @regression @sanity
   Scenario Outline: Create a new user with given list
     Given user in TalentTEK Homepage
     And user clicks on "Create new account" button
